@@ -21,7 +21,7 @@ The list of possible flags:
 // #define __BITSET_SAFE_MODE__
 // #define __BITSET_OMP__
 
-#include "bitset.h"
+#include "bitset_dev.h"
 //You can find the definitions in header of that library (bitset.h)
 //Here are details of functionality
 
