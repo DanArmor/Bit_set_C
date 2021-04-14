@@ -32,11 +32,11 @@ What you can do:
 * Destroy set values (deallocate dynamic array)
 
 ## How to compile/use
-To use Bit_set just add <#include "bitset.h"> at the top of your source file
+To use Bit_set just add `#include "bitset.h"` at the top of your source file
 
 There are two possibilities for compile:
 
-* You can just compile your source file with bitset.c like <gcc your_source.c bitset.c -o your_program>, but this may require using of flags inside of your source file.
+* You can just compile your source file with bitset.c like `gcc your_source.c bitset.c -o your_program`, but this may require using of flags inside of your source file.
 * You can create a static library from bitset.c with needed flags and use it:
 1. `gcc bitset.c -Wall -c -fopenmp`
 2. `ar r libbitset.a bitset.o`
