@@ -5,6 +5,7 @@ The custom C library that provides the implementation of numerical set by bit-ve
 Made with educational purpose.
 
 bitset.h and bitset.c - main implimintation
+
 bitset_user.h - header for end users, without "heavy" doxygen comments.
 
 ## Implemetation
