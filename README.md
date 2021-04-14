@@ -4,7 +4,7 @@ Simple bit set implementation for educational purpose
 The custom C library that provides the implementation of numerical set by bit-vectors.
 Made with educational purpose.
 
-bitset.h and bitset.c - main implimintation
+bitset.h and bitset.c - main implimintation. That bitset.h is used for compilation by devs.
 
 bitset_user.h - header for end users, without "heavy" doxygen comments.
 
