@@ -8,13 +8,6 @@
 
 */
 
-/**
- * @file
- * @brief The header of custom C library that provides the implementation of numerical set by bit-vectors
- * @author DanArmor \n https://github.com/DanArmor
- * 
- */
-
 #pragma once
 #ifndef __BITSET_DEFINED__ // Include guard for 3rd party interop
 #define __BITSET_DEFINED__
