@@ -4,13 +4,6 @@
  * @brief The source file of custom C library that provides the implementation of numerical set by bit-vectors
  * @author DanArmor \n
  * https://github.com/DanArmor
- * @details
- * The list of possible flags: \n
- * <b>\__BITSET_32__</b>       - If you need to force 32-bit blocks of set \n
- * <b>\__BITSET_64__</b>        - If you need to force 64-bit blocks of set \n
- * <b>\__BITSET_SAFE_MODE__</b> - Forces exit while take any of errors \n
- * <b>\__BITSET_OMP__</b>      --- forces to use OpenMP and threads \n
- * Using of those flags requires re-compilation of bitset.c with it \n
  */
 
 /*
