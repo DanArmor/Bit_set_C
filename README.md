@@ -6,7 +6,7 @@ Made with educational purpose.
 
 bitset_dev.h and bitset.c - main implimintation. That bitset_dev.h is used for compilation by devs.
 
-bitset.h - header for end users, without "heavy" doxygen comments.
+bitset.h - header for end users.
 
 ## Implemetation
 A Bit_set has 5 members:
