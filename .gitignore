@@ -1,6 +1,8 @@
 # Prerequisites
 *.d
 
+.github
+
 # Object files
 *.o
 *.ko
