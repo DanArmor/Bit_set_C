@@ -42,7 +42,7 @@ There are two possibilities for compile:
 2. `ar r libbitset.a bitset.o`
 3. `gcc your_source.c -Wall -L. -lbitset -o your_program -fopenmp`
 
-Warning! -fopenmp is optional flag, if you want to use multiply threads. If you don't want - just don't type it.
+Warning! -fopenmp is optional flag, if you want to use multiply threads. If you don't want - just don't type it and don't use \_\_BITSET_OMP\_\_ flag.
 
 ---
 TODO:
