@@ -30,6 +30,20 @@ What you can do:
 * Output set (like { 1, 2, 3 }, {} and etc) 
 * Complement set
 * Destroy set values (deallocate dynamic array)
+
+## How to compile/use
+To use Bit_set just add <#include "bitset.h"> at the top of your source file
+
+There are two possibilities for compile:
+
+* You can just compile your source file with bitset.c like <gcc your_source.c bitset.c -o your_program>, but this may require using of flags inside of your source file.
+* You can create a static library from bitset.c with needed flags and use it:
+1. `gcc bitset.c -Wall -c -fopenmp`
+2. `ar r libbitset.a bitset.o`
+3. `gcc m.c -Wall -L. -lbitset -o m -fopenmp`
+
+Warning! -fopenmp is optional flag, if you want to use multiply threads. If you don't want - just don't type it.
+
 ---
 TODO:
 
