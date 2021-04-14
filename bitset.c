@@ -1,10 +1,8 @@
+//The source file of custom C library that provides the implementation of numerical set by bit-vectors
+//Made by DanArmor
+//https://github.com/DanArmor
+
 #define __BITSET_LIB__ //Flag for compilation of library
-/**
- * @file
- * @brief The source file of custom C library that provides the implementation of numerical set by bit-vectors
- * @author DanArmor \n
- * https://github.com/DanArmor
- */
 
 /*
 The list of possible flags:
