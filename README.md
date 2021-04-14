@@ -27,3 +27,8 @@ What you can do:
 * Output set (like { 1, 2, 3 }, {} and etc) 
 * Complement set
 * Destroy set values (deallocate dynamic array)
+---
+TODO:
+
+* Bit_set structure with static values array
+* More operations? (Maybe, lots of them only with static version)
